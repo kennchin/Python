@@ -16,5 +16,9 @@ def flatten(lists):
             results.append(n)
     return results
     
-
 print flatten(n)
+
+-----------------------------------------------------------------
+3. Creating a matrix of list
+for i in range(5):
+    print ["X"] * 5
