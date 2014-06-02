@@ -1,1 +1,6 @@
-List of some useful functions in python library
+List of some useful functions in python library:
+  1. " ".join(list) -- join elements in list with a space between them
+  2. .append() -- append to list
+  3. randint() -- random integer (need from random import randint)
+  4. choice = raw_input("message") -- ask user for input and return it as string
+  5. if __ not in range(int)  -- check whether value is in range
