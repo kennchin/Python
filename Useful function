@@ -4,3 +4,7 @@ List of some useful functions in python library:
   3. randint() -- random integer (need from random import randint)
   4. choice = raw_input("message") -- ask user for input and return it as string
   5. if __ not in range(int)  -- check whether value is in range
+  6. zip -- create a pair of elements when passed two lists(stop at shorter list,work with three or more lists)
+     example: list_a = [3, 9, 17, 15, 19]
+              list_b = [2, 4, 8, 10, 30, 40, 50, 60, 70, 80, 90]
+              for a, b in zip(list_a, list_b):
