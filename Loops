@@ -1,3 +1,5 @@
 1. if -- execute statement when condition is true (once)
 2. while -- execute statement as long as condition is true (loop until false)
 3. for variable in range() -- execute known amount of time
+4. while / else  
+5. for / else
