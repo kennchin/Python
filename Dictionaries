@@ -1,0 +1,14 @@
+Iterators for Dictionaries:
+  1. items() function - return key/value pairs (tuple-unchangeable)in no specific order
+      example:
+        my_dict = {'a':"car",'b':"toy",'c':3}
+        print my_dict.items()
+          output : [('a', 'car'), ('c', 3), ('b', 'toy')]
+  2. keys() function - returns an array of the dictionary's keys
+      example:
+        print my_dict.keys()
+          output : ['a', 'c', 'b']
+  3. values() function - return an array of the dictionary's values
+      example:
+        print my_dict.values()
+          output : ['car', 3, 'toy']
