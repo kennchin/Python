@@ -1,6 +1,9 @@
 - inheritance is the process in which a class takes on the attributes and methods of another (is-a relationship)
-  example:   Toyota is a Vehicle class
-
+  - example:   Toyota is a Vehicle class
+  - syntax: class DerivedClass(BaseClass):
+      where DerivedClass is the new class you're making and 
+      BaseClass is the class from which that new class inherits.
+      
 - Sample code:
   class Customer(object):
     """Produces objects that represent customers."""
