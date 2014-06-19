@@ -1,0 +1,47 @@
+- Writing output to a file
+- example:
+  my_list = [i**2 for i in range(1,11)]
+
+  my_file = open("output.txt", "r+")  #open file for read and write 
+
+  for number in my_list:
+      my_file.write(str(number)+"\n")  #write() takes string argument
+
+  my_file.close()
+---------------------------------------------------------------------
+- Reading a file
+- example:
+  my_file = open("output.txt","r")
+  print my_file.read()
+  my_file.close()
+---------------------------------------------------------------------
+- Read a file line by line (use readline() function)
+- example:
+  my_file = open("text.txt","r")
+  print my_file.readline()
+  print my_file.readline()
+  print my_file.readline()
+  my_file.close()
+  output: I'm the first line of the file!
+
+          I'm the second line.
+
+          Third line here, boss.
+----------------------------------------------------------------------
+- Use built-in python function to close file automatically (with-as invokes the built-in function __exit__())
+- syntax: with open("file", "mode") as variable:
+           # Read or write to the file
+- example: with open("text.txt", "w") as textfile:
+	         textfile.write("Success!")
+	output: in text.txt file: Success!
+-----------------------------------------------------------------------
+- There is a way to check if file is close by using the file object attribute closed.
+- Python file objects have a closed attribute which is True when the file is closed and False otherwise.
+- syntax: file_object.closed # we'll know whether our file is closed and can call close() on it if it's still open.
+- example:
+    with open("text.txt","w") as my_file:
+    my_file.write("Hello")
+
+    if my_file.closed:
+    my_file.close()
+    print my_file.closed  #True
