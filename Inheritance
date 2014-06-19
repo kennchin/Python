@@ -20,3 +20,5 @@
   monty_python.display_order_history()
   
   Output: 
+  I'm a string that stands in for the contents of your shopping cart!
+  I'm a string that stands in for your order history!
